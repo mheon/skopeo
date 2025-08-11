@@ -50,6 +50,8 @@ For a detailed description how to install or build skopeo, see
 Skopeo is also available as a Container Image on [quay.io](https://quay.io/skopeo/stable).  For more information, see the [Skopeo Image](https://github.com/containers/image_build/blob/main/skopeo/README.md) page.
 
 ## Inspecting a repository
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fmheon%2Fskopeo.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fmheon%2Fskopeo?ref=badge_shield)
+
 `skopeo` is able to _inspect_ a repository on a container registry and fetch images layers.
 The _inspect_ command fetches the repository's manifest and it is able to show you a `docker inspect`-like
 json output about a whole repository or a tag. This tool, in contrast to `docker inspect`, helps you gather useful information about
@@ -98,6 +100,9 @@ $ skopeo inspect docker://registry.fedoraproject.org/fedora:latest
     ]
 }
 ```
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fmheon%2Fskopeo.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fmheon%2Fskopeo?ref=badge_large)
 
 #### Show container configuration from `fedora:latest`
 
